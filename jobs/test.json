@@ -1,0 +1,5 @@
+{
+  "id": "job",
+  "command": "echo \"Job started from reliable file input\"",
+  "max_retries": 2
+}

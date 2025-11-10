@@ -1,0 +1,5 @@
+{
+    "id": "fail",
+    "command": "cmd /c exit 1", 
+    "max_retries": 1 
+}
