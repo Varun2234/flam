@@ -1,23 +1,29 @@
 {
   "name": "flam",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "A simple, persistent, CLI-based background job queue system built with Node.js and SQLite",
+  "main": "src/cli.js",
   "type": "module",
   "bin": {
     "queuectl": "./src/cli.js"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "queue",
+    "job-queue",
+    "background-jobs",
+    "sqlite",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "better-sqlite3": "^12.4.1",
-    "cli-table3": "^0.6.5",
-    "commander": "^14.0.2",
-    "dayjs": "^1.11.19",
-    "uuid": "^13.0.0"
+    "better-sqlite3": "^8.7.0",
+    "commander": "^11.0.0",
+    "cli-table3": "^0.6.3",
+    "dayjs": "^1.11.10",
+    "uuid": "^9.0.1"
   }
 }
